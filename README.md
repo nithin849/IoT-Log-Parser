@@ -43,7 +43,7 @@ pip install pandas matplotlib pillow
 ## Screenshots
 ![Visualization](visualization.png)
 ![structured.csv file](structured.png)
-![ErrorLog](errorlog.png)
+![ErrorLog](error_log.png)
 
 ## Performance Analysis
 1.Processing Speed: Efficiently processes small to medium-sized log files in under a second per 1000 lines.
