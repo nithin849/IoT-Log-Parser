@@ -23,11 +23,11 @@ cd IoT-Log-Parser
 pip install pandas matplotlib pillow
 
 ## How to Run
-1.Open the script in Google Colab or any Python environment that supports interactive file uploads.
-2.Run the script, and you will be prompted to upload your log file.
-3.After parsing, download the outputs:
-  -->structured_data.csv: Contains the structured data.
-  -->error_log.txt: Logs errors encountered during parsing.
+- Open the script in Google Colab or any Python environment that supports interactive file uploads.
+- Run the script, and you will be prompted to upload your log file.
+- After parsing, download the outputs:
+  -structured_data.csv: Contains the structured data.
+  -error_log.txt: Logs errors encountered during parsing.
 
 ## Output Files
 - `structured_data.csv`: Parsed data.
@@ -35,10 +35,10 @@ pip install pandas matplotlib pillow
 - `visualization.png`: Data visualization.
 
 ## Assumptions
-1.Log files may contain mixed formats (Base64, key-value pairs, JSON).
-2.Base64 strings are prefixed with "BASE64:".
-3.JSON entries are enclosed in {}.
-4.Key-value pairs follow the key=value format.
+-Log files may contain mixed formats (Base64, key-value pairs, JSON).
+-Base64 strings are prefixed with "BASE64:".
+-JSON entries are enclosed in {}.
+-Key-value pairs follow the key=value format.
 
 ## Screenshots
 ![Visualization](visualization.png)
@@ -46,5 +46,5 @@ pip install pandas matplotlib pillow
 ![ErrorLog](error_log.png)
 
 ## Performance Analysis
-1.Processing Speed: Efficiently processes small to medium-sized log files in under a second per 1000 lines.
-2.Visualization Speed: Generates charts instantly for up to 10,000 actions.
+-Processing Speed: Efficiently processes small to medium-sized log files in under a second per 1000 lines.
+-Visualization Speed: Generates charts instantly for up to 10,000 actions.
